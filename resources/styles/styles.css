@@ -1,0 +1,45 @@
+html {
+    background-color: #DCD6F7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;   
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: auto;
+    color: #F4EEFF;
+    height: fit-content;
+    padding: 25px;
+    background-color: #424874;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#medidas, #medidasOpcion, #convertButton {
+    border: 1px solid #F4EEFF;
+    height: 30px;
+    max-height: 30px;
+    background-color: #A6B1E1;
+    text-align: center;
+    color: #F4EEFF;
+    font-size: medium;
+}
+
+#medidas::placeholder {
+    color: #F4EEFF;
+}

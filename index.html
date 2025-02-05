@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lan="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tarea 4 Convertidor de medidas</title>
+        <link rel="stylesheet" href="./resources/styles/styles.css">
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <div id="titleContainer">
+                    <h1>Convertidor de medidas</h1>
+                </div>
+                <div id="inputs">
+                    <input type="numero" name="medidas" id="medidas" placeholder="Introducir medida">
+                    <select id="medidasOpcion">
+                        <option value="m">Metros</option>
+                        <option value="cm">Centimetros</option>
+                        <option value="mm">Milimetros</option>
+                    </select>
+                    <button id="convertButton" onclick="convertir()">Convertir</button>
+                </div>
+                <div id="outputs">
+                    <div id="m">
+                        <h3>Metros</h3>
+                        <p id="metrosOutput">0</p>
+                    </div>
+                    <div id="cm">
+                        <h3>Centimetros</h3>
+                        <p id="centimetrosOutput">0</p>
+                    </div>
+                    <div id="mm">
+                        <h3>Milimetros</h3>
+                        <p id="milimetrosOutput">0</p>
+                    </div>                    
+                </div>
+            </div>
+            <script src="./resources/js/app.js"></script>
+        </main>
+    </body>
+</html>
